@@ -4,7 +4,7 @@ import { Tabbar, TabbarItem } from "@vkontakte/vkui";
 import navigationItems from "./items";
 
 const MobileNavigation = () => {
-  const { view, toView } = useRouterView();
+  const [view, toView] = useRouterView();
 
   return (
     <Tabbar>

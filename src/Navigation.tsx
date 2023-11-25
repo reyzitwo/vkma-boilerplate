@@ -13,7 +13,7 @@ interface NavigationI {
 }
 
 const Navigation = ({ isDesktop }: NavigationI) => {
-  const { popout } = useRouterPopout();
+  const [popout] = useRouterPopout();
 
   return (
     <SplitLayout

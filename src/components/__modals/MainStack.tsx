@@ -10,7 +10,7 @@ import {
 import Hello from "./Hello";
 
 const MainStack = () => {
-  const { toModal } = useRouterModal();
+  const [, toModal] = useRouterModal();
 
   return (
     <ModalRoot>
